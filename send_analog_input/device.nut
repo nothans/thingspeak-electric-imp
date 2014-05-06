@@ -11,5 +11,5 @@ function sendAnalogInput()
 
 imp.onidle(function() {
   sendAnalogInput();
-  server.sleepfor(600);
+  server.sleepfor(15);
 });
